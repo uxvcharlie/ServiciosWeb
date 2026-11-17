@@ -45,7 +45,7 @@ public class UsuarioService {
                                         dato.path("email").asText(),
                                         dato.path("phone").asText(),
                                         dato.path("address").path("city").asText(),
-                                        dato.path("Company").path("name").asText()
+                                        dato.path("company").path("name").asText()
                     );
 
             usuarios.add(usuario);
