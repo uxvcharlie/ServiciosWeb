@@ -15,5 +15,7 @@ public class UsuarioApplication extends Application {
         stage.setTitle("Usuarios API REST");
         stage.setScene(scene);
         stage.show();
+
+
     }
 }
